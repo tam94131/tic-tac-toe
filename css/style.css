@@ -1,3 +1,22 @@
+.container {
+	background-color: #9DD7B1;
+}
+
+h1, h2, .piece {
+	font-family: "Fontdiner Swanky", cursive;
+	color: #B73D60;  
+}
+
+.piece {
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.box {
+	height: 100px;
+	line-height: 100px;
+}
+
 #board {
   margin-top: 10px;
 }
