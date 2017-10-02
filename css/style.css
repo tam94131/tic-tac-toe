@@ -4,7 +4,7 @@
 
 h1, h2, .piece {
 	font-family: "Fontdiner Swanky", cursive;
-	color: #B73D60;  
+	color: rgb(198,116,104);  
 }
 
 .piece {
@@ -24,4 +24,9 @@ h1, h2, .piece {
 .box {
   border: 1px solid black;
   height: 150px;
+}
+
+#tttbutton {
+	margin: 7px;
+	background-color: rgb(198,116,104);
 }

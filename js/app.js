@@ -3,7 +3,7 @@ var oTurn = true;
 
 // wait for the DOM to finish loading
 $(document).ready(function() {
-	console.log("We be loaded");
+	// console.log("We be loaded");
   // all code to manipulate the DOM
   // goes inside this function
 
@@ -23,12 +23,12 @@ function clearBoard() {
 	// console.log("boxes " + allBoxes.length);
 	for (var i=0; i<allBoxes.length; i++) {
 		allBoxes[i].innerHTML="";
-		// console.log("cleared");
 	}
 	sayWhosTurn();
+	// console.log("Cleared board");
 }
 
-// $(button).on("click",clearBoard);
+$('#tttbutton').on('click',clearBoard);
 
 function checkPlayer(a) {
 	if ((b[0]===a && b[1]===a && b[2]===a) ||
